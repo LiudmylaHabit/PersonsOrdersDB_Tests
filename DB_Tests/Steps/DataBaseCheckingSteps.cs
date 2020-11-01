@@ -22,7 +22,7 @@ namespace DB_Tests.Steps
         public void GivenConnectionToShopDatabaseIsEstablished()
         {
             dbMethods = new DataBaseMethods();
-            dbMethods.ConnectToCatalog("TEST_DB");            
+            dbMethods.ConnectToCatalog("PersonsOrders");            
         }
 
         // Scenario - Adding new user data to database
